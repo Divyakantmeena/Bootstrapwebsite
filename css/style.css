@@ -1,0 +1,146 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding: 0;
+  margin: 0;
+  background: #fff;
+  color: #fff;
+}
+
+.navbar {
+  background: #78379d;
+}
+.navbar .navbar-brand {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-top: 0.5rem;
+}
+.navbar .navbar-nav .nav-link {
+  color: #fff;
+  font-weight: 300;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+}
+.navbar .navbar-nav .nav-link:hover {
+  background: #fff;
+  color: #78379d;
+}
+
+.home-hero {
+  margin-top: 50px;
+  padding: 20px;
+  color: black;
+  text-align: justify;
+}
+.home-hero .about_page {
+  text-transform: uppercase;
+  color: goldenrod;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.home-hero hr {
+  border-width: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.home-hero .sub-heading {
+  font-size: larger;
+}
+@media (max-width: 576px) {
+  .home-hero .sub-heading {
+    font-size: medium;
+  }
+  .home-hero .featurette-heading {
+    font-size: x-large;
+  }
+}
+.home-hero .featurette-heading {
+  margin-top: 35px;
+}
+.home-hero .footerpage a {
+  text-decoration: none;
+  border-color: black;
+  border-radius: 20px;
+  color: black !important;
+  font-weight: 500;
+}
+.home-hero .footerpage a:hover {
+  border-color: blueviolet;
+  border-radius: 20px;
+  color: blueviolet !important;
+}
+@media (max-width: 576px) {
+  .home-hero .footerpage a {
+    width: 100px;
+    height: 30px;
+    font-size: 10px;
+  }
+}
+
+.table {
+  color: black !important;
+  border: solid 1px black;
+}
+
+h3 {
+  color: black;
+  text-align: center;
+}
+
+.modal-header {
+  color: black;
+}
+
+.modal-body a {
+  text-decoration: none;
+  color: maroon;
+}
+.modal-body a:hover {
+  color: blueviolet;
+}
+
+.button-basics, .form-box .button_groups {
+  text-align: center;
+}
+
+.form-box {
+  padding: 20px;
+  background: #f7f7f9;
+  color: black;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+}
+.form-box h3 {
+  font-size: 36px;
+  list-style: 48px;
+  font-weight: 500;
+}
+.form-box p {
+  color: black !important;
+}
+.form-box .form-group:last-child {
+  margin-top: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-control-label {
+  font-weight: 500;
+  clear: both;
+}
+
+.form-control {
+  line-height: 1.8rem;
+}
+
+/*# sourceMappingURL=style.css.map */
