@@ -1,0 +1,44 @@
+.button-basics{
+    text-align: center;
+}
+
+.form-box {
+	// overflow: hidden;
+    // width: 600px;
+	padding: 20px;
+	background: #f7f7f9;
+    color: black;
+	@include border-radius(4px);
+
+	h3 {
+		font-size: 36px;
+		list-style: 48px;
+		font-weight: $font-bold;
+	}
+
+	p {
+		color: black!important;
+	}
+
+    .button_groups{
+        @extend .button-basics;
+    }
+
+	.form-group:last-child {
+		margin-top: 1.5rem;
+	}
+}
+
+.form-group {
+	margin-bottom: 1.5rem;
+}
+
+.form-control-label {
+	font-weight: $font-bold;
+	clear: both;
+}
+
+.form-control {
+	line-height: 1.8rem;
+}
+

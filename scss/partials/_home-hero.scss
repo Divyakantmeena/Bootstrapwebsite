@@ -1,0 +1,68 @@
+.home-hero{
+    margin-top: 50px;
+    padding: 20px;
+    color: black;
+    text-align: justify;
+    // background: #333;
+    // @include border-radius(12px);
+
+    .about_page{
+        text-transform: uppercase;
+        @include font-color(goldenrod);
+        @include font-size($font-h2);
+        @include font-weight(bold);
+    }
+
+    hr{
+        border-width: 2px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
+    }    
+
+    //sub-heading Styling
+    .sub-heading{
+        font-size: larger;
+    }
+
+    @media (max-width: 576px) {
+        .sub-heading{
+            font-size: medium;
+        }
+
+        .featurette-heading{
+            font-size: x-large;
+        }
+    }
+
+
+    .featurette-heading{
+        margin-top: 35px;
+    }
+
+    //Footer Styling
+    .footerpage{
+        a{
+            text-decoration: none;
+            @include border-color(black);
+            border-radius: $border_radius;
+            color: black!important;
+            font-weight: $font-bold;
+        }
+       
+        a:hover{
+            @include border-color(blueviolet);
+            border-radius: $border_radius;
+            color:blueviolet !important;
+        }
+
+        @media (max-width: 576px) {
+            a{
+                width: 100px;
+                height: 30px;
+                font-size: 10px;
+            }
+        }
+
+    }
+}

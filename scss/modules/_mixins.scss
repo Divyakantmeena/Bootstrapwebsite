@@ -1,0 +1,24 @@
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+       -moz-border-radius: $radius;
+        -ms-border-radius: $radius;
+            border-radius: $radius;
+  }
+  
+
+@mixin font-color($font_color){
+   color: $font_color;
+    // goldenrod;
+}
+
+@mixin font-size($font_size){
+    font-size: $font_size;
+}
+
+@mixin font-weight($font-weight) {
+    font-weight: $font-weight;
+}
+
+@mixin border-color($border_color){
+    border-color: $border_color;
+}
